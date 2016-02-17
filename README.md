@@ -28,4 +28,20 @@ The app.component.ts file contains:
   Above the class is the componet function of angular is applied with a 
   decorator which is prefixed with @ which contains the selector and template 
   fields.
---------------------------------------------------------------------------------
+    This selector property specifies a simple CSS selector for the host element 
+    my-app.
+    The template property holds the component's companion template which tells
+    angular how to render the view.
+    
+The main.ts file contains:
+  The imports of the Angular's browser bootstrap function and the app's root
+  component from the app.component file just written. The bootstrap function is
+  then called from the import and the AppComponent is pass through it.
+  
+The index.html file is created in the project root folder. It contains:
+  Javascript libraries needed.
+  Configure the "System" to import main.ts file.
+  The <my-app> tag in the <body> which is targeted by the selector from 
+  app.component.
+  
+********************************************************************************
